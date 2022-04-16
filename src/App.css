@@ -1,0 +1,136 @@
+/* header section */
+.header-container {
+  height: 100vh;
+  background-image: url(./img/5.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-container .content {
+  color: whitesmoke;
+}
+
+.header-container button {
+  color: whitesmoke;
+  background: none;
+  border: 2px solid whitesmoke;
+}
+
+/* about section */
+.about-header {
+  color: #545151;
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 8px 5px gainsboro;
+}
+
+.about-content {
+  color: #545151;
+  font-size: 18px;
+}
+
+.about-container a {
+  background-color: #545151;
+  color: whitesmoke;
+  border: 1px solid #545151;
+}
+
+/* skills section */
+.skills-container {
+  background: #545151;
+  color: whitesmoke;
+}
+
+.skills-title {
+  font-size: 60px;
+  font-weight: 500;
+  text-shadow: 2px 2px black;
+}
+
+.skills-container ul {
+  text-align: left;
+}
+
+.skills-container ul li {
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.skills-container ul .title {
+  text-align: center;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.skills-container .progress {
+  height: 40px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.skills-container .progress-title {
+  background-color: gray;
+  color: whitesmoke;
+  width: 15%;
+  padding: 7px 0;
+  font-size: 16px;
+}
+
+.skills-container .progress-bar {
+  background-color: gainsboro;
+}
+
+/* portfolio section */
+.portfolio-header {
+  color: #545151;
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 8px 5px gainsboro;
+}
+
+.portfolio-container .portfolio-content-dark,
+.portfolio-content-light {
+  height: 200px;
+  color: whitesmoke;
+  display: flex;
+  font-weight: 500;
+  text-shadow: 1px 1px black;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+
+  box-shadow: 10px 10px gainsboro;
+}
+
+.portfolio-container .portfolio-content-dark {
+  background-color: #545151;
+}
+
+.portfolio-container .portfolio-content-light {
+  background-color: #999494;
+}
+
+.portfolio-container .first {
+  padding-bottom: 20px;
+  border-bottom: 3px solid whitesmoke;
+}
+
+/* footer section */
+.footer-container {
+  background: #232222;
+  color: whitesmoke;
+}
+
+.footer-container button {
+  color: whitesmoke;
+  background: none;
+  border: 2px solid whitesmoke;
+}
+
+
+.footer-icon i{
+  line-height: 28px;
+  font-size: 20px;
+}
